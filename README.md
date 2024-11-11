@@ -31,6 +31,8 @@ ssh -i /path/to/your-key.pem ubuntu@your-ec2-instance-public-ip
 # 6. Install phpMyAdmin
 ```sudo apt install phpmyadmin -y```
 
+When it shows error
+
 ```sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin```
 
 # 7. Configure MySQL Access for phpMyAdmin
