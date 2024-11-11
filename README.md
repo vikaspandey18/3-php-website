@@ -53,9 +53,9 @@ You will get password when setting up phpmyadmin
 ```sudo mysql -u root -p```
 
 # Run inside MySQL prompt:
-```CREATE USER 'phpmyadmin'@'localhost' IDENTIFIED BY 'your_secure_password';```
+```CREATE USER 'admin'@'localhost' IDENTIFIED BY 'admin@456';```
 
-```GRANT ALL PRIVILEGES ON *.* TO 'phpmyadmin'@'localhost' WITH GRANT OPTION;```
+```GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost' WITH GRANT OPTION;```
 
 ```FLUSH PRIVILEGES;```
 
